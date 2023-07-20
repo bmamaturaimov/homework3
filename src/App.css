@@ -1,0 +1,24 @@
+
+.borderValid {
+    border: 2px solid red;
+    outline: none;
+    animation: validation 0.2s ease-in-out infinite;
+}
+.borderNoValid {
+    outline: none;
+}
+
+.forma {
+    margin: 100px 100px;
+}
+.text {
+    color: red;
+}
+@keyframes validation {
+    0%   {margin-left: 10px; height: 23px;}
+    25%  {margin-left: -10px; height: 23px;}
+    50%  {margin-left: 10px; height: 23px;}
+    75%  {margin-left: -10px; height: 23px;}
+    100% {margin-left: 10px; height: 23px;}
+}
+
